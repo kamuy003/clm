@@ -23,3 +23,12 @@ body{
 body>*{
     background-color: bisque;
 }
+#logo{
+    width: 100px;
+}
+#header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
