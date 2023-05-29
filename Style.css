@@ -1,0 +1,17 @@
+#header{
+    grid-area: header;
+}
+#aside-left{
+    grid-area: left;
+}
+#main{
+    grid-area: main;
+}
+#footer{
+    grid-area: footer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
