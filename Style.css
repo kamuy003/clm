@@ -75,3 +75,58 @@ body>*{
 #header-button{
     width: 300px;
 }
+nav{
+    background-color: orange;
+    color: vmenuhitesmoke;
+    height:60px;
+    justify-content: space-between;
+    display: flex;
+}
+/* menu bố */
+.menu{
+    display: flex;
+    list-style: none;
+}
+ul.menu>li{
+    padding: 10px 50px;
+    position: relative;
+}
+ul.menu>li > a{
+    text-align: center;
+    text-decoration: none;
+    padding:20px  54px;
+    color: white;
+    text-transform: uppercase;
+}
+ul.menu li > a:hover{
+    color: black;
+}
+ul.menu li > ul:hover{
+    display: block;
+}
+
+/* menu con */
+ul.menu > li > ul{
+    margin-left: 20px;
+    list-style: none;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.434);
+    top: 60px;
+    display: none;
+    left: 0;
+}
+ul.menu > li > ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+ul.menu > li:hover > ul{
+    display: block;
+}
+ul.menu > li > ul > li{
+    padding: 20px 40px 20px 19px;
+    border-bottom: 1px solid white;
+}
+ul.menu > li > ul > li:hover{
+    background-color: aquamarine;
+}
