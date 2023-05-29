@@ -51,3 +51,18 @@ body>*{
     width: 50%;
     display: flex;
 }
+#header-button ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+#header-button a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+#header-button i{
+    font-size: 30px;
+}
