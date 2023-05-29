@@ -14,4 +14,12 @@ body{
     margin: 0;
     padding: 0;
     display: grid;
+    gap: 10px;
+    grid-template-areas:
+    'header header header header header header header header header header header header'
+    'left   left   left   left   main   main   main   main   main   main   main   main' 
+    'footer footer footer footer footer footer footer footer footer footer footer footer';
+}
+body>*{
+    background-color: bisque;
 }
