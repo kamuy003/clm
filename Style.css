@@ -1,5 +1,6 @@
 #header{
     grid-area: header;
+    background-color: rgb(0, 0, 0);
 }
 #aside-left{
     grid-area: left;
@@ -56,13 +57,21 @@ body>*{
     padding: 0;
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 #header-button a{
     display: flex;
     flex-direction: column;
     text-align: center;
     text-decoration: none;
+    color: white;
+}
+#header-button a :hover{
+    color: orange;
 }
 #header-button i{
     font-size: 30px;
+}
+#header-button{
+    width: 300px;
 }
