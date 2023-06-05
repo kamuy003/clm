@@ -132,6 +132,21 @@ body{
     background-color: #fff;
     border-radius: 5px;
     margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.box-text{
+    padding-left: 55%;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    background-position: center;
+    transition: all ease 0.5s;
+}
+.box-text :hover{
+    background-size: 110%;
 }
 #category-list{
     margin-top: -10px;
@@ -163,4 +178,17 @@ body{
     padding-top: 0;
     padding-bottom: 0;
     overflow: hidden;
+}
+.row{
+    justify-content: space-between;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.row .col{
+    flex: 1;
+}
+.slider img{
+    width: 100%;
+    border-radius: 5px;
 }
