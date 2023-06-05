@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLMSHOP - Trang chủ</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
         <header id="header">
             <div id="header-top">
-                <img id="logo" src="" alt="">
+                <img id="logo" src="/2020-FPTPolytechic-stroke.png" alt="" width="100%">
                 <div id="search-box">
                     <input type="text" placeholder="Nhập sản phẩm cần tìm..." >
                     <button>Tìm kiếm</button>
@@ -40,20 +43,47 @@
                     </ul>
                 </div>
             </div>
-            <nav>
-                <nav>
-                    <ul class="menu">
-                        <li><a href="#">Trang chủ </a></li>
-                        <li><a href="#">Cửa Hàng</a></li>
-                        <li><a href="#">Liên Lạc</a></li>
-                        <li><a href="#">Đề Nghị</a></li>
-                        <li><a href="#">Tin Tức</a></li>
-                    </ul>
-                </nav>
-            </nav>
         </header>
+        <nav id="nav-category">
+            <button>
+                <i class="fa-solid fa-bars"></i> Danh Mục
+            </button> 
+        </nav>
+        <nav id="nav-menu">
+            <ul>
+                <li>
+                    <a href="">Trang Chủ</a>
+                </li>
+                <li>
+                    <a href="">Liên Hệ</a>
+                </li>
+                <li>
+                    <a href="">Tin Tức</a>
+                </li>
+            </ul>
+            <a href="tel: +841900000">Cần hỗ trợ ?
+            Gọi ngay 1900 0000</a>
+        </nav>
         <aside id="aside-left">
-            Left
+            <div id="category-list" class="box">
+                <ul>
+                    <li>
+                        <a href="">Điện Thoại</a>
+                    </li>
+                    <li>
+                        <a href="">Máy Tính</a>
+                    </li>
+                    <li>
+                        <a href="">Phụ Kiện</a>
+                    </li>
+                    <li>
+                        <a href="">Tai Nghe</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box"> 1 </div>
+            <div class="box"> 2 </div>
+            <div class="box"> 3 </div>
         </aside>
         <main id="main">
             Main
@@ -62,5 +92,6 @@
             Footer
         </footer>
         <script src="https://kit.fontawesome.com/3788603684.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 </html>
