@@ -192,3 +192,14 @@ body{
     width: 100%;
     border-radius: 7px;
 }
+.text-white{
+    color:#fff;
+}
+.product-list-title{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.product-list{
+    padding: 10px;
+}
