@@ -4,6 +4,7 @@
 }
 #aside-left{
     grid-area: left;
+    min-width: 300px;
 }
 #main{
     grid-area: main;
