@@ -134,7 +134,7 @@ body{
     margin-bottom: 10px;
     display: block;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 .box-text{
     padding-left: 55%;
@@ -190,5 +190,16 @@ body{
 }
 .slider img{
     width: 100%;
-    border-radius: 7px;
+    border-radius: 4px;
+}
+.text-white{
+    color:#fff;
+}
+.product-list-title{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.product-list{
+    padding: 10px;
 }
