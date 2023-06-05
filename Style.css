@@ -203,3 +203,16 @@ justify-content: space-between;
 .product-list{
     padding: 10px;
 }
+.product-image-button{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-image{
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
