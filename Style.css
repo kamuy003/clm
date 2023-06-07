@@ -250,13 +250,13 @@ ul#nav-detail li:last-child{
     width: 100%;
     border-radius: 5px;
 }
-ul#nav
 #product-image-nav{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin-top: 10px;
+    margin-right: 60px;
 }
 .product-info-review{
     color: gold;
@@ -278,5 +278,14 @@ table#product-info-detail th{
     padding: 10px 20px;
     border: 1px solid black;
     border-radius: 30px;
+    cursor: pointer;
+}
+.custom-radio input:checked + div{
+    background-color: orange;
+    color: #fff;
+}
+.custom-radio-color div{
+    color: transparent;
+    padding: 10px 12.6px;
 }
 
