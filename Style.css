@@ -288,4 +288,31 @@ table#product-info-detail th{
     color: transparent;
     padding: 10px 12.6px;
 }
-
+#cart{
+    width: 100%;
+}
+#cart img{
+    width: 100px;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+#cart input{
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+}
+#cart button{
+    border: 0;
+    outline: 0;
+    background: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+    color: #848383;
+    cursor: pointer;
+}
