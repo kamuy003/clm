@@ -226,3 +226,23 @@ justify-content: space-between;
 .product-info a{
     text-decoration: none;
 }
+ul#nav-detail{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+ul#nav-detail a{
+    color: #585656;
+    text-decoration: none;
+}
+ul#nav-detail a:hover{
+    color: orangered;
+}ul#nav-detail li{
+    border-right: 1px solid #000;
+    padding-right: 10px; 
+}
+ul#nav-detail li:last-child{
+    border: 0;
+}
