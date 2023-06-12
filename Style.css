@@ -489,4 +489,15 @@ table#product-info-detail th{
     #aside-left{
         margin: 10px;
     }
+    #categogy-list{
+        margin-top: -30px;
+    }
+}
+@media all and (max-width: 768px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .row .col{
+        min-width: 45%;
+    }
 }
