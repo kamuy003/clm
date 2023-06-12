@@ -479,4 +479,8 @@ table#product-info-detail th{
     #search-button{
         display: list-item;
     }
+    #nav-category{
+        margin: 10px;
+        background: unset;
+    }
 }
