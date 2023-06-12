@@ -483,4 +483,7 @@ table#product-info-detail th{
         margin: 10px;
         background: unset;
     }
+    #nav-category button{
+        border-radius: 5px;
+    }
 }
